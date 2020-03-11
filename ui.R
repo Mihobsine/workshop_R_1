@@ -5,16 +5,14 @@ source("server.R")
 
 ui <- fluidPage(
   column(12, align = "center", titlePanel("STARWARS"), br()),
-
-  sidebarPanel(
-    selectizeInput("gender", "Gender", choices = c("All", unique(starwars$gender))),
-    selectizeInput("species", "Species", choices = c("All", unique(starwars$species))),
-    selectizeInput("skin_color", "Skin Color", choices = c("All", unique(starwars$skin_color))),
-    selectizeInput("eye_color", "Eyes Color", choices = c("All", unique(starwars$eye_color)))
-  ),
-  # Create a new row for the table.
+  # Step 4
+  # Put the select inputs in the sidebarPanel
+  # sidebarPanel(
+  
+  # ),
+  # Step 3
   mainPanel(
-    DT::dataTableOutput("table")
+    # Display the data table output of the dataframe in the server
   )
 )
 
