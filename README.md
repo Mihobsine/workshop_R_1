@@ -1,10 +1,4 @@
 # workshop_R_1
 
-Requirements : install R, install RStudio
-
-Needed packages : shiny, tidyverse, DT
-
-Step 1 : use filter and select function
-Step 2 : use selecInput
-
-Bonus : make plots of datas
+Welcome to this workshop about R discovery.
+Please read Workshop_R_1.pdf to follow this workshop.
